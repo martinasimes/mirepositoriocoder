@@ -1,0 +1,19 @@
+
+article, aside, footer{
+   flex:1;
+   padding: 1rem;
+   margin:1rem;
+}
+article, aside{
+   background-color: white;
+   color: black;
+   text-transform: uppercase
+}
+
+.main2{
+   display: flex;
+   flex: 1;
+   margin-top: 10px;
+   align-content: flex-end;
+   background-image: linear-gradient(to left, white, grey)
+}

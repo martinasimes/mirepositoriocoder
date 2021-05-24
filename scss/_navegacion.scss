@@ -1,0 +1,25 @@
+.navegacion{
+    &__item{
+        &--activo{
+            a{
+                border-bottom: 1px solid white;
+            }
+                 }
+        a{  text-align: center;
+            color: white;
+            text-decoration: none;
+            display: inline;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            transition: 0.4s;
+
+            &:hover{
+                color: #d2d2d2;
+            }
+
+        }
+    }
+
+}

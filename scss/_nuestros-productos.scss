@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+
+*{margin:0;
+	padding:0;
+}
+
+$ancho:720 px
+$alto:1 rem;
+
+
+
+
+section{
+	margin: 20px;
+	display: inline-block;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+.productos{
+	display: grid;
+	place-items: center;
+	height:$alto;
+	width: $ancho/2;
+	justify-content: center;
+}
+.padre1 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}
+.carta{
+
+    background-color: grey;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 1rem;
+
+    justify-content:space-between;
+
+    text-align: center;
+
+}
+.carta h4 {
+
+  margin-bottom: 16px;
+
+  font-size: 20px;
+
+}
+.fotos{
+	height: 250px;
+	width: auto;
+		}
+
+
+.carta p {
+
+  margin-bottom: 6px;
+
+}
+.carta img{
+	margin-top: 15px;
+	border-radius: 50%;
+}
+@media(max-width: 600px){
+	nav ul {
+		display: none;
+	}
+	.padre1{
+		grid-template-columns: 1fr
+			}
+	footer {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.padre1 {
+            grid-template-columns: repeat(3, 1fr);
+      }
+      }
+@media only screen and (min-width: 768px) {
+	.padre1{
+		grid-template-columns: repeat(3, 1fr);
+	}
+ }
