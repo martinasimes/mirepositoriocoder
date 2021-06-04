@@ -1,7 +1,5 @@
 @media(max-width: 600px){
-	nav ul {
-		display: none;
-	}
+	
 	.padre1{
 		grid-template-columns: 1fr
 			}
@@ -21,6 +19,7 @@
 		grid-template-columns: repeat(3, 1fr);
 	}
 	}
+
 @media only screen and (min-width: 480px) {
 	.padre1 {
 		grid-template-columns: repeat(3, 1fr);
