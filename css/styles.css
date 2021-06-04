@@ -85,8 +85,6 @@ iframe {
   background-size: cover; }
 
 @media (max-width: 600px) {
-  nav ul {
-    display: none; }
   .padre1 {
     grid-template-columns: 1fr; }
   footer {
