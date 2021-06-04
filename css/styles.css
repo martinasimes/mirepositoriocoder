@@ -156,8 +156,6 @@ h1 {
   border-radius: 50%; }
 
 @media (max-width: 600px) {
-  nav ul {
-    display: none; }
   .padre1 {
     grid-template-columns: 1fr; }
   footer {
@@ -184,7 +182,7 @@ article, aside {
   text-transform: uppercase; }
 
 .main2 {
-  display: flex;
+  display: flex-wrap: wrap;
   flex: 1;
   margin-top: 10px;
   align-content: flex-end;
